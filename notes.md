@@ -49,3 +49,15 @@ Open Container Initiative (OCI)
     - Created RKT, a containerization engine built on their new 'appc' spec
   - Competing standards threatened to create rift in container ecosystem
   - Docker Inc. + CoreOS Inc. resolved issue by creating OCI
+
+Stateful vs Stateless
+---------------------
+
+- Docker and containers can handle stateful and stateless workloads
+- Excel at handling _stateless_ workloads, but common to have both
+- Docker containers are _persistent_ by nature
+  - Stopping a container does not wipe its data
+  - Restarting a container brings its data back
+  - Data stored in volumes persists even after destruction
+- Docker storage backend is pluggable
+  - Has led to many plugins supporting state/data portability
