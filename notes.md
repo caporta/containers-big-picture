@@ -72,3 +72,15 @@ Container Registries
 - Docker Content Trust:
   - Verify image integrity and publisher credentials
 - Supports automated workflows
+
+Cloud vs On-Prem
+----------------
+
+- Cloud
+  - Build: Engine + Swarm
+  - Ship:  Docker Hub
+  - Run:   Tutum
+- On-Prem
+  - Build: Engine + Swarm
+  - Ship:  Docker Trusted Registry (DTR)
+  - Run:   Docker Universal Control Plane
