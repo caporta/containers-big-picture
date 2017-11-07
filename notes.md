@@ -84,3 +84,24 @@ Cloud vs On-Prem
   - Build: Engine + Swarm
   - Ship:  Docker Trusted Registry (DTR)
   - Run:   Docker Universal Control Plane
+
+Container Orchestration
+-----------------------
+
+1. Defines the application architecture
+2. Provisions infrastructure
+3. Deploys the application
+4. Provides reproducible pattern
+
+- Docker Machine
+  - Provisions Docker hosts/engines
+- Docker Compose
+  - Composes multi-container apps
+- Docker Swarm
+  - Schedules containers over multiple engines
+- Docker Tutum wraps these ^
+- Alternatives:
+  - Kubernetes
+  - Mesosphere DCOS
+  - CoreOS Fleet
+  - OpenStack Magnum
