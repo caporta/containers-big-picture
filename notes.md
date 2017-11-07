@@ -61,3 +61,14 @@ Stateful vs Stateless
   - Data stored in volumes persists even after destruction
 - Docker storage backend is pluggable
   - Has led to many plugins supporting state/data portability
+
+Container Registries
+--------------------
+
+- Places to store and retrieve container images
+- Docker Hub is the official Docker registry
+- 3rd party registries exist as well
+- Registries contain repositories (both public & private)
+- Docker Content Trust:
+  - Verify image integrity and publisher credentials
+- Supports automated workflows
